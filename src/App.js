@@ -1,21 +1,31 @@
 // App.js
 
 import React from "react";
-import Card from "./components/Card";
 import "./App.css";
-
+import Card from "./components/Card";
+import blue from "./assets/blue.jpg";
+import white from "./assets/white.jpg";
+import yellow from "./assets/yellow.jpg";
 function App() {
   return (
-    <div className="App">
-      <Card>
-        <h1>Parent Card</h1>
-        <p>This is the parent card content.</p>
-
-        <Card>
-          <h2>Child Card</h2>
-          <p>This is the child card content.</p>
-        </Card>
-      </Card>
+    <div className="wrapper">
+      <Card
+        img={blue}
+        title="Style-blue"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+      />
+      <Card
+        img={white}
+        title="Style-white"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+          "
+      />
+      <Card
+        img={yellow}
+        title="Style-yellow"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          "
+      />
     </div>
   );
 }
