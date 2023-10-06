@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kurale&display=swap');
 
 // color variables
-$clr-primary: #d50000;
+$clr-primary: #694ce9;
 $clr-primary-hover: #29e6a7;
 $clr-primary-dark: #039d69;
 $clr-gray100: #f9fbff;
@@ -28,12 +28,15 @@ body {
     margin: 2rem;
   }
   .wrapper{
-    display: grid;
+    // display: flex; 
+      display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     gap: 2rem;
     justify-content: center;
+    // row-gap: 50px;
   }
   .card{
+    
     overflow:hidden;
     display: flex;
     flex-direction: column;
