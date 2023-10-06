@@ -17,13 +17,13 @@ function App() {
       <div className="navtop"></div>
       <div className="wrapper">
         <Card
-          img={blue}
-          title="Style-blue"
+          img={white}
+          title="Style-white"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ."
         />
         <Card
-          img={white}
-          title="Style-white"
+          img={blue}
+          title="Style-blue"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.
           "
         />
