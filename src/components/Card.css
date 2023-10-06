@@ -48,9 +48,9 @@ body {
   font-weight: bold;
   font-size: 1rem;
   margin: 1rem;
-  border: 2px solid #d50000;
+  border: 2px solid #694ce9;
   background: transparent;
-  color: #d50000;
+  color: #694ce9;
   border-radius: 0.2rem;
   transition: background 200ms ease-in, color 200ms ease-in;
 }
@@ -58,6 +58,6 @@ body {
   transform: scale(1.02);
 }
 .card:hover .card-btn {
-  background: #d50000;
+  background: #694ce9;
   color: white;
 }/*# sourceMappingURL=Card.css.map */
