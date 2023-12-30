@@ -11,6 +11,13 @@ import orange2 from "./assets/orange2.jpg";
 import wood from "./assets/wood.jpg";
 import NewNavbar from "./components/NewNavbar";
 function App() {
+  // const PRODUCTS=[
+  //   {img:{white},title:"Style-white",text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed .",
+  //   price:"$2",stocked:true
+  // },
+  // {}
+      
+    
   return (
     <div>
       <NewNavbar />
