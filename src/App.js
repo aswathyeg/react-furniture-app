@@ -10,8 +10,9 @@ import white2 from "./assets/white2.jpg";
 import orange2 from "./assets/orange2.jpg";
 import wood from "./assets/wood.jpg";
 import NewNavbar from "./components/NewNavbar";
+import FilterableProductCard from "./components/FilterableProductCard";
 function App() {
-  const PRODUCTS=[
+  let PRODUCTS=[
     {img:{white},title:"Style-white",text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed .",
     price:"$2",stocked:true
   },
@@ -36,7 +37,7 @@ price:"$2",stocked:true
   return (
     <div>
       <NewNavbar />
-      <div className="navtop"></div>
+      {/* <div className="navtop"></div>
       <div className="wrapper">
         <Card
           products={PRODUCTS}
@@ -59,7 +60,8 @@ price:"$2",stocked:true
         <Card
           products={PRODUCTS}
         />
-      </div>
+      </div> */}
+      <FilterableProductCard products={PRODUCTS}/>
     </div>
   );
 }
