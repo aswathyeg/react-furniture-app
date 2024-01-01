@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kurale&display=swap");
-/*   border radius */
+/* 
 *,
 *::before,
 *::after {
@@ -60,4 +59,6 @@ body {
 .card:hover .card-btn {
   background: #694ce9;
   color: white;
-}/*# sourceMappingURL=Card.css.map */
+} 
+
+ */
