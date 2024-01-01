@@ -1,16 +1,20 @@
 import React from 'react'
-import Card from './Card'
+import NewNavbar from './NewNavbar'
+import { useState } from 'react';
+import ProductCard from './ProductCard';
 
-const FilterableProductCard = () => {
+const FilterableProductCard = ({products}) => {
     const [filterText, setFilterText] = useState('');
   return (
     <div>
-        <Card  filterText={filterText} />
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+      <NewNavbar
+       filterText={filterText}
+       onFilterTextChange={setFilterText}/>
+       <ProductCard 
+       products={products} 
+       filterText={filterText}
+       />
+      
         
     </div>
   )
