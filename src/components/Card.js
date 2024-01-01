@@ -1,16 +1,24 @@
 import React from "react";
 import "./Card.css";
 
-const Card = (props) => {
-  console.log(props.products)
+const Card = ({products}) => {
+  
   return (
-    <div className="card">
-      <div className="card-body">
-        <img src={props.products.img} className="card-image" />
-        <h2 className="card-title">{props.products.text}</h2>
-        <p className="card-description">{props.products.text}</p>
+    <div>
+    {products?.map(item=>(
+      
+      <div className="card">
+      <div className="card-body"key={item.id} >
+        <img src={item.imageUrl} className="card-image" 
+         alt={item.title} 
+         />
+        <h2 className="card-title">{item.text}</h2>
+        <p className="card-description">{item.text}</p>
         <button className="card-btn">View product</button>
       </div>
+      </div>
+
+    ))}
     </div>
   );
 };
