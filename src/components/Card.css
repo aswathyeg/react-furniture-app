@@ -1,4 +1,4 @@
-/* 
+
 *,
 *::before,
 *::after {
@@ -60,5 +60,16 @@ body {
   background: #694ce9;
   color: white;
 } 
+.productCard{
+  overflow: hidden;
+  display: flex;
+  
+  /* flex-direction: column; */
+  justify-content: center;
+  box-shadow: 0 2px 20px #e1e5ee;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
 
- */
+
