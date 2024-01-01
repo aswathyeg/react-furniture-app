@@ -63,7 +63,6 @@ body {
 } 
 .productCard{
   overflow: hidden;
-  
   flex-direction: column;
   justify-content: center;
   box-shadow: 0 2px 20px #e1e5ee;
@@ -73,7 +72,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
   gap: 2rem;
-  
+    
 }
 
 

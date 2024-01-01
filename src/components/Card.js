@@ -4,12 +4,13 @@ import "./Card.css";
 const Card = ({products}) => {
   
   return (
+    
     <div>
     {products?.map(item=>(
       
       <div className="card">
       <div className="card-body"key={item.id} >
-        <img src={item.imageUrl} className="card-image" 
+        <img src={item.imageUrl} className={item.id>3?"card-image" :"wrapper"}
          alt={item.title} 
          />
         <h2 className="card-title">{item.title}</h2>
