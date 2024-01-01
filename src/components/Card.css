@@ -62,14 +62,19 @@ body {
 } 
 .productCard{
   overflow: hidden;
-  display: flex;
   
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
   box-shadow: 0 2px 20px #e1e5ee;
   border-radius: 0.2rem;
   cursor: pointer;
   transition: transform 200ms ease-in;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  
 }
+
+
 
 

@@ -12,7 +12,7 @@ const Card = ({products}) => {
         <img src={item.imageUrl} className="card-image" 
          alt={item.title} 
          />
-        <h2 className="card-title">{item.text}</h2>
+        <h2 className="card-title">{item.title}</h2>
         <p className="card-description">{item.text}</p>
         <button className="card-btn">View product</button>
       </div>
