@@ -10,7 +10,7 @@ const Card = ({products}) => {
       
       <div className="card">
       <div className="card-body"key={item.id} >
-        <img src={item.imageUrl} className={item.id>3?"card-image" :"wrapper"}
+        <img src={item.imageUrl} className={item.id<=3?"card-image" :"wrapper"}
          alt={item.title} 
          />
         <h2 className="card-title">{item.title}</h2>
