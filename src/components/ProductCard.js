@@ -1,13 +1,20 @@
 import React from 'react'
-import Card from './Card';
-import "./Card.css";
+import Cards from './Cards';
+
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 const ProductCard = ({products}) => {
   return (
-    <div className='productCard' > 
+    <Row xs={1} md={2} className="g-4">
+      {Array.from({ length: 4 }).map((_, idx) => (
+        <Col key={idx}>
   
-    <Card products={products}/>
-    </div>
-   
+    <Cards products={products}/>
+
+      </Col>
+      ))}
+    </Row>
   )
 }
 

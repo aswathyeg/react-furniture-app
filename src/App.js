@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./App.css";
-import Card from "./components/Card";
+
 import blue from "./assets/blue.jpg";
 import white from "./assets/white.jpg";
 import yellow from "./assets/yellow.jpg";
