@@ -21,14 +21,17 @@ body {
 
 
 .card {
+  margin-left: 200px;
   overflow: hidden;
   display: flex;
+  max-width: 70%;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 2px 20px #e1e5ee;
   border-radius: 0.2rem;
   cursor: pointer;
   transition: transform 200ms ease-in;
+  
 }
 .card-image {
   height: 12rem;
